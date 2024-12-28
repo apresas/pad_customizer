@@ -30,6 +30,10 @@ function ColorPalette({
     { color: "grey", title: "Grey" },
     { color: "#C0B460", title: "Gold" },
     { color: "#988966", title: "Copper" },
+    { color: "white", title: "White" },
+    { color: "white", title: "White" },
+    { color: "white", title: "White" },
+    { color: "white", title: "White" },
   ];
   return (
     <div className="palette_container">

@@ -57,6 +57,16 @@ function ColorTile({
             updateColor(10, color, title);
           } else if (zone === "LOGO") {
             updateColor(11, color, title);
+          } else if (zone === "TEST1") {
+            updateColor(12, color, title);
+          } else if (zone === "TEST2") {
+            updateColor(13, color, title);
+          } else if (zone === "TEST3") {
+            updateColor(14, color, title);
+          } else if (zone === "TEST4") {
+            updateColor(15, color, title);
+          } else if (zone === "TEST5") {
+            updateColor(16, color, title);
           }
         }}
       />

@@ -113,6 +113,36 @@ function Customizer() {
       color: "silver",
       tag: "Silver",
     },
+    {
+      title: "Test 1",
+      id: 12,
+      color: "silver",
+      tag: "Silver",
+    },
+    {
+      title: "Test 2",
+      id: 13,
+      color: "silver",
+      tag: "Silver",
+    },
+    {
+      title: "Test 3",
+      id: 14,
+      color: "silver",
+      tag: "Silver",
+    },
+    {
+      title: "Test 4",
+      id: 15,
+      color: "silver",
+      tag: "Silver",
+    },
+    {
+      title: "Test 5",
+      id: 16,
+      color: "silver",
+      tag: "Silver",
+    },
   ]);
 
   useEffect(() => {
@@ -138,6 +168,16 @@ function Customizer() {
       setCurrentZone("Stitching:");
     } else if (currentIndex === 10) {
       setCurrentZone("Logo:");
+    } else if (currentIndex === 11) {
+      setCurrentZone("Test 1:");
+    } else if (currentIndex === 12) {
+      setCurrentZone("Test 2:");
+    } else if (currentIndex === 13) {
+      setCurrentZone("Test 3:");
+    } else if (currentIndex === 14) {
+      setCurrentZone("Test 4:");
+    } else if (currentIndex === 15) {
+      setCurrentZone("Test 5:");
     }
   }, [currentIndex]);
 

@@ -8,9 +8,9 @@
 }
 
 .zoneTitle_container {
-    width: 720px;
+    width: 420px;
     display: grid;
-    grid-template-columns: 1fr 8fr 1fr;
+    grid-template-columns: 1fr 4fr 1fr;
     /* border: 1px solid grey; */
     /* height: 2rem; */
     border-top: 0;

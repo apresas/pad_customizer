@@ -19,6 +19,11 @@ function UI({
     { zone: "BINDING", title: "Binding" },
     { zone: "TOE", title: "Stitching" },
     { zone: "LOGO", title: "Logo" },
+    { zone: "TEST1", title: "Test 1" },
+    { zone: "TEST2", title: "Test 2" },
+    { zone: "TEST3", title: "Test 3" },
+    { zone: "TEST4", title: "test 4" },
+    { zone: "TEST5", title: "test 5" },
   ];
 
   return (
