@@ -5,9 +5,10 @@
     /* width: 100%; */
     border: 1px solid grey;
     border-top: 0;
-    background-color: #efefef;
-    padding: 0.35rem 0;
+    background-color: #1e1e1e;
+    padding: 0.75rem 0;
     gap: 1.5rem;
+    border-bottom: 2px solid var(--color-teal);
 }
 
 .section_marker {
@@ -15,7 +16,8 @@
     border-radius: 50%;
     width: 0.75rem;
     aspect-ratio: 1/1;
-    background-color: #869697;
+    background-color: #1e1e1e;
+    border: 1px solid grey;
 }
 
 /* .z1 {
@@ -29,6 +31,6 @@
     left: 0;
     right: 0;
     border-radius: 50%;
-    background-color: #3c4444; 
+    background-color: var(--color-teal); 
     /* background-color: red;  */
 }

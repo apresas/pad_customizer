@@ -153,7 +153,25 @@ function Customizer() {
 
   return (
     <div className="customizer_container">
-      <div className="customizer_header">
+      <SectionBar
+        currentIndex={currentIndex}
+        setCurrentIndex={setCurrentIndex}
+      />
+      <ZoneTitle
+        setCurrentIndex={setCurrentIndex}
+        currentIndex={currentIndex}
+        currentZone={currentZone}
+        testColor={testColor}
+      />
+      <UI
+        currentIndex={currentIndex}
+        setCurrentIndex={setCurrentIndex}
+        setCurrentZone={setCurrentZone}
+        currentZone={currentZone}
+        updateColor={updateColor}
+        testColor={testColor}
+      />
+      {/* <div className="customizer_header">
         <h1>Customizer</h1>
         <div className="logo_container">
           <svg
@@ -178,26 +196,8 @@ function Customizer() {
             </g>
           </svg>
         </div>
-      </div>
+      </div> */}
       <Stage testColor={testColor} />
-      <SectionBar
-        currentIndex={currentIndex}
-        setCurrentIndex={setCurrentIndex}
-      />
-      <ZoneTitle
-        setCurrentIndex={setCurrentIndex}
-        currentIndex={currentIndex}
-        currentZone={currentZone}
-        testColor={testColor}
-      />
-      <UI
-        currentIndex={currentIndex}
-        setCurrentIndex={setCurrentIndex}
-        setCurrentZone={setCurrentZone}
-        currentZone={currentZone}
-        updateColor={updateColor}
-        testColor={testColor}
-      />
       <ProductDesc />
       <ColorForm testColor={testColor} />
       <ProductInfo />

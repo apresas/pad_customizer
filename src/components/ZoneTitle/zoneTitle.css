@@ -1,9 +1,20 @@
+.zoneTitle {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-black);
+    padding: 1rem 0 0 0;
+}
+
 .zoneTitle_container {
+    width: 720px;
     display: grid;
-    grid-template-columns: 1fr 15fr 1fr;
-    border: 1px solid grey;
+    grid-template-columns: 1fr 8fr 1fr;
+    /* border: 1px solid grey; */
+    /* height: 2rem; */
     border-top: 0;
-    background-color: #efefef;
+    background-color: var(--color-black);
 }
 
 .title_container {
@@ -18,6 +29,8 @@
 .title_container h2 {
     font-size: 1.1rem;
     font-family: "Bebas Neue", serif;
+    color: white;
+    margin: 0;
 }
 
 .title_color{
@@ -28,17 +41,23 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: white;
+    background-color: var(--color-black);
     border-radius: 0;
-    color: black;
+    color: white;
     font-family: "Bebas Neue", serif;
+    font-size: 1.2rem;
+    transition: color 300ms ease-in-out;
+}
+
+.prev_btn:hover, .next_btn:hover { 
+    color: var(--color-teal)
 }
 
 .prev_btn {
-    border-right: 1px solid grey;
+    /* border-right: 1px solid grey; */
 }
 
 .next_btn {
-    border-left: 1px solid grey;
+    /* border-left: 1px solid grey; */
 }
 

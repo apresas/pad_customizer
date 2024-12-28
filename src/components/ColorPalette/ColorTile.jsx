@@ -30,7 +30,6 @@ function ColorTile({
           <FaCheckCircle />
         </div>
       ) : null} */}
-
       <button
         className="tile"
         style={{ backgroundColor: color }}
