@@ -1,0 +1,26 @@
+.colorForm_container {
+    text-align: left;
+}
+
+.colorForm_container h2 {
+    font-family: "Oxanium";
+    font-weight: 500;
+}
+
+.form_container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    font-family: "Oxanium";
+}
+
+.input_title {
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.color_input {
+    border: 1px solid grey;
+    padding: 0.4rem 0.5rem;
+    font-size: 0.9rem;
+}

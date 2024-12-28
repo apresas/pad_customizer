@@ -1,0 +1,15 @@
+.customizer_container h1 {
+    font-family: "Bebas Neue", serif;
+    font-size: 2.5rem;
+}
+
+.customizer_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo_container {
+    width: 3.75rem;
+    padding: 1rem;
+}
