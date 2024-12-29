@@ -57,9 +57,9 @@ function ColorTile({
             updateColor(10, color, title);
           } else if (zone === "LOGO") {
             updateColor(11, color, title);
-          } else if (zone === "TEST1") {
+          } else if (zone === "CALF") {
             updateColor(12, color, title);
-          } else if (zone === "TEST2") {
+          } else if (zone === "STRAP") {
             updateColor(13, color, title);
           } else if (zone === "TEST3") {
             updateColor(14, color, title);

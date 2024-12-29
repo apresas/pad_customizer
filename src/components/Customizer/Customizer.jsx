@@ -114,13 +114,13 @@ function Customizer() {
       tag: "Silver",
     },
     {
-      title: "Test 1",
+      title: "Calf Wrap",
       id: 12,
       color: "silver",
       tag: "Silver",
     },
     {
-      title: "Test 2",
+      title: "Strap",
       id: 13,
       color: "silver",
       tag: "Silver",
@@ -169,15 +169,9 @@ function Customizer() {
     } else if (currentIndex === 10) {
       setCurrentZone("Logo:");
     } else if (currentIndex === 11) {
-      setCurrentZone("Test 1:");
+      setCurrentZone("Interior:");
     } else if (currentIndex === 12) {
-      setCurrentZone("Test 2:");
-    } else if (currentIndex === 13) {
-      setCurrentZone("Test 3:");
-    } else if (currentIndex === 14) {
-      setCurrentZone("Test 4:");
-    } else if (currentIndex === 15) {
-      setCurrentZone("Test 5:");
+      setCurrentZone("Strap:");
     }
   }, [currentIndex]);
 

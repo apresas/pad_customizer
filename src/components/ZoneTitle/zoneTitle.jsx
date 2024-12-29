@@ -13,7 +13,7 @@ function zoneTitle({ setCurrentIndex, currentZone, currentIndex, testColor }) {
 
   const showNextZone = () => {
     setCurrentIndex((index) => {
-      if (index === 10) return 0;
+      if (index === 12) return 0;
       return index + 1;
     });
   };
@@ -40,7 +40,7 @@ function zoneTitle({ setCurrentIndex, currentZone, currentIndex, testColor }) {
           <h2>{currentZone}</h2>
           <h2 className="title_color">{testColor[currentIndex].tag}</h2>
         </div>
-        {currentIndex < 10 ? (
+        {currentIndex < 12 ? (
           <button className="next_btn" onClick={showNextZone}>
             {/* Next */}
             <GrFormNext />

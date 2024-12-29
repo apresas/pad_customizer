@@ -15,6 +15,8 @@ function ColorForm({ testColor }) {
     { title: testColor[7].title, value: testColor[7].tag },
     { title: testColor[9].title, value: testColor[9].tag },
     { title: testColor[10].title, value: testColor[10].tag },
+    { title: testColor[11].title, value: testColor[11].tag },
+    { title: testColor[12].title, value: testColor[12].tag },
   ];
 
   const specs = [

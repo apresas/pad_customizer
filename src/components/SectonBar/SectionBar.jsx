@@ -43,15 +43,6 @@ function SectionBar({ currentIndex, setCurrentIndex }) {
       <button className="section_marker z13" onClick={() => setCurrentIndex(12)}>
         {12 === currentIndex ? <span className="dot" /> : null}
       </button>
-      <button className="section_marker z14" onClick={() => setCurrentIndex(13)}>
-        {13 === currentIndex ? <span className="dot" /> : null}
-      </button>
-      <button className="section_marker z15" onClick={() => setCurrentIndex(14)}>
-        {14 === currentIndex ? <span className="dot" /> : null}
-      </button>
-      <button className="section_marker z16" onClick={() => setCurrentIndex(15)}>
-        {15 === currentIndex ? <span className="dot" /> : null}
-      </button>
     </div>
   );
 }

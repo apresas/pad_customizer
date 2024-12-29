@@ -2,13 +2,7 @@ import React from "react";
 import ColorTile from "./ColorTile.jsx";
 import "./colorPalette.css";
 
-function ColorPalette({
-  zone,
-  setZone,
-  index,
-  setCurrentIndex,
-  updateColor,
-}) {
+function ColorPalette({ zone, setZone, index, setCurrentIndex, updateColor }) {
   const colors = [
     { color: "white", title: "White" },
     { color: "black", title: "Black" },
@@ -37,18 +31,31 @@ function ColorPalette({
   ];
   return (
     <div className="palette_container">
-      {colors.map((color, index) => (
-        <ColorTile
-          key={index}
-          zone={zone}
-          setZone={setZone}
-          color={color.color}
-          title={color.title}
-          index={index}
-          setCurrentIndex={setCurrentIndex}
-          updateColor={updateColor}
-        />
-      ))}
+      {index === 12
+        ? colors.slice(0,2).map((color, index) => (
+            <ColorTile
+              key={index}
+              zone={zone}
+              setZone={setZone}
+              color={color.color}
+              title={color.title}
+              index={index}
+              setCurrentIndex={setCurrentIndex}
+              updateColor={updateColor}
+            />
+          ))
+        : colors.map((color, index) => (
+            <ColorTile
+              key={index}
+              zone={zone}
+              setZone={setZone}
+              color={color.color}
+              title={color.title}
+              index={index}
+              setCurrentIndex={setCurrentIndex}
+              updateColor={updateColor}
+            />
+          ))}
     </div>
   );
 }
