@@ -1,0 +1,51 @@
+.itemSelector_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+}
+
+.icons_container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    /* padding: 1rem; */
+    /* border-bottom: 2px solid lightgrey; */
+    /* width: 1080px; */
+}
+
+.item_btn{
+    all: unset;
+    /* border: 1px solid grey; */
+}
+
+.icon {
+    padding: 0.5rem;
+}
+
+.icon img{
+    height: 4.5rem;
+    aspect-ratio: 1/1;
+}
+
+.bar {
+    position: relative;
+    width: 1080px;
+    border-bottom: 2px solid var(--color-lightGrey);
+    margin-top: 1rem;
+}
+
+.marker {
+    position: absolute;
+    z-index: 1;
+    bottom: -1.2rem;
+    left: 0;
+    width: 5.25rem;
+    border: 2px solid var(--color-teal);
+    transition: translate 300ms ease-in-out;
+    border-radius: 5px;
+    /* box-shadow: 0 0 5px 0 var(--color-teal); */
+
+}

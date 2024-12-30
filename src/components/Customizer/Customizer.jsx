@@ -7,6 +7,8 @@ import ZoneTitle from "../ZoneTitle/zoneTitle.jsx";
 import ProductDesc from "../ProductDesc/productDesc.jsx";
 import ColorForm from "../ColorForm/ColorForm.jsx";
 import ProductInfo from "../ProductInfo/ProductInfo.jsx";
+import ItemSelector from "../ItemSelector/ItemSelector.jsx";
+import ItemButtons from "../ItemButtons/ItemButtons.jsx";
 
 function Customizer() {
   //   *** Console Color Zones ***
@@ -116,32 +118,32 @@ function Customizer() {
     {
       title: "Calf Wrap",
       id: 12,
-      color: "silver",
-      tag: "Silver",
+      color: "white",
+      tag: "White",
     },
     {
       title: "Strap",
       id: 13,
-      color: "silver",
-      tag: "Silver",
+      color: "white",
+      tag: "White",
     },
     {
       title: "Test 3",
       id: 14,
-      color: "silver",
-      tag: "Silver",
+      color: "white",
+      tag: "White",
     },
     {
       title: "Test 4",
       id: 15,
-      color: "silver",
-      tag: "Silver",
+      color: "white",
+      tag: "White",
     },
     {
       title: "Test 5",
       id: 16,
-      color: "silver",
-      tag: "Silver",
+      color: "white",
+      tag: "White",
     },
   ]);
 
@@ -232,6 +234,8 @@ function Customizer() {
         </div>
       </div> */}
       <Stage testColor={testColor} />
+      <ItemSelector />
+      <ItemButtons />
       <ProductDesc />
       <ColorForm testColor={testColor} />
       <ProductInfo />
